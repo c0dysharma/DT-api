@@ -2,7 +2,7 @@
 // required imprts
 const express = require('express');
 const methodOverride = require('method-override');
-const { MongoClient, MongoServerError, ObjectId } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 
 //consts
 const baseUrl = '/api/v3/app';
